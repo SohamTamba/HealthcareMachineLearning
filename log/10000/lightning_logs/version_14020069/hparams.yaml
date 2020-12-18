@@ -1,0 +1,5 @@
+batch_size: 32
+lr: 0.001
+model_type: cbr_large_wide
+num_train_samples: 10000
+task: Edema
