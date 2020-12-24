@@ -1,6 +1,0 @@
-backbone_path: weights/-1/cbr_large_wide/resume_checkpoint/version_14062969/checkpoints/epoch=19.ckpt
-batch_size: 64
-freeze_backbone: false
-lr: 0.001
-num_train_samples: 1000
-task: Edema

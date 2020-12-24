@@ -11,7 +11,7 @@ def make_dataset(task, train, root="../", size=-1):
     if size < 0 or size > full_size:
         return full_dataset
     else:
-        dataset, _ = random_split(full_dataset, [size, full_size-size])
+        dataset, _ = random_split(full_dataset, [size, full_size-size], generator=torch.Generator().manual_seed(1234))
         return dataset
 
 
