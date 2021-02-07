@@ -9,6 +9,7 @@ Blog post: [https://sohamtamba.github.io/projects/deep-learning/2020/12/17/mlhc-
 
 * Python: 3.8.5
 * Pytorch: 1.7.0
+* CUDA: 10.2
 * Torchvision: 0.8.1
 * Pytorch-Lightning: 1.0.8
 * PIL: 8.0.1
